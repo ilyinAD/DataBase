@@ -7,7 +7,7 @@
 /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/CMakeFiles/install.dir
 /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/CMakeFiles/install/local.dir
 /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/CMakeFiles/install/strip.dir
-/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/CMakeFiles/MyDataBase.dir
+/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/CMakeFiles/MyDataBase_1.dir
 /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/CMakeFiles/test.dir
 /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/CMakeFiles/edit_cache.dir
 /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/CMakeFiles/rebuild_cache.dir

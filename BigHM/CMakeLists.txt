@@ -13,7 +13,6 @@ add_executable(BigHM main.cpp
         MyDataBase/conditionParser/ExprChecker.cpp
         MyDataBase/domain/DataBaseType.h
         MyDataBase/domain/ColTable.h
-        MyDataBase/domain/DataBaseType.h
         MyDataBase/domain/DataBaseType.cpp
         MyDataBase/table/Table.h
         MyDataBase/domain/Element.h
@@ -37,7 +36,7 @@ add_executable(BigHM main.cpp
 #)
 
 
-target_link_libraries(BigHM PUBLIC MyDataBase)
+target_link_libraries(BigHM PUBLIC MyDataBase_1)
 
 #add_subdirectory(googletest)
 enable_testing()
@@ -52,7 +51,7 @@ FetchContent_MakeAvailable(googletest)
 
 
 add_executable(my_tests test/conditionParser_test.cpp test/DataBase_test.cpp)
-target_link_libraries(my_tests gtest gtest_main MyDataBase)
+target_link_libraries(my_tests gtest gtest_main MyDataBase_1)
 
 target_include_directories(my_tests PRIVATE ${CMAKE_SOURCE_DIR})
 #target_sources(my_tests PRIVATE

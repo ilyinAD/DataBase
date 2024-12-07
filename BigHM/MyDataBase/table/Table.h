@@ -26,14 +26,17 @@ public:
     std::vector<Col> columns;
     std::vector<std::vector<std::shared_ptr<DataBaseType>>> rows;
     Table(std::string name, std::vector<Element> m);
-
+    int mxHeight;
     Table(const Table& other) {
         name = other.name;
         columns = other.columns;
         rows = other.rows;
+        mxHeight = 0;
     };
 
-    Table() {};
+    Table() {
+        mxHeight = 0;
+    };
 
     Table(std::string name, std::vector<Col> newColumns) : name(name) {
         int idx = 0;
@@ -43,6 +46,7 @@ public:
             columns.push_back(col);
             ++idx;
         }
+        mxHeight = 0;
     };
 
     class Iterator {

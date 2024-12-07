@@ -172,7 +172,7 @@ BigHM: CMakeFiles/BigHM.dir/MyDataBase/conditionParser/ExprChecker.cpp.o
 BigHM: CMakeFiles/BigHM.dir/MyDataBase/domain/DataBaseType.cpp.o
 BigHM: CMakeFiles/BigHM.dir/MyDataBase/table/Table.cpp.o
 BigHM: CMakeFiles/BigHM.dir/build.make
-BigHM: MyDataBase/libMyDataBase.a
+BigHM: MyDataBase/libMyDataBase_1.a
 BigHM: CMakeFiles/BigHM.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable BigHM"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BigHM.dir/link.txt --verbose=$(VERBOSE)

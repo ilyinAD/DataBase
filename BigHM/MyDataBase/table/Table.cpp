@@ -29,6 +29,7 @@ Table::Table(string name, vector<Element> m): name(name) {
         }
         ++idx;
     }
+    mxHeight = 0;
 }
 
 //проверяет только что нужная строка имеет неуникальные значения в колонке с индексом idx
@@ -75,7 +76,7 @@ void Table::insert(const map<string, string>& m) {
         if (rows[idx][i] == nullptr) {
             try {
                 if (columns[i].attributes.is_autoincrement) {
-                    rows[idx][i] = getTypeByCol(columns[i].type, to_string(rows.size() - 1));
+                    rows[idx][i] = getTypeByCol(columns[i].type, to_string(mxHeight));
                 } else if (columns[i].attributes.default_value != "") {
                     rows[idx][i] = getTypeByCol(columns[i].type, columns[i].attributes.default_value);
                 }
@@ -92,6 +93,8 @@ void Table::insert(const map<string, string>& m) {
             throw invalid_argument("not unique value");
         }
     }
+
+    ++mxHeight;
 }
 
 Col Table::getColByName(string colName) {
@@ -280,6 +283,8 @@ void Table::to_json(json &j) {
         columns_json.push_back(el_json);
     }
     j["col"] = columns_json;
+
+    j["mxHeight"] = mxHeight;
 }
 
 void from_json(json& j, Table& table) {
@@ -296,4 +301,6 @@ void from_json(json& j, Table& table) {
         from_json(i, col);
         table.columns.push_back(col);
     }
+
+    table.mxHeight = j["mxHeight"];
 }

@@ -82,7 +82,8 @@ public:
     std::string name;
     Type type;
     int idx;
-    Col(std::string name, Type type, int idx, Attributes attributes) : name(std::move(name)), type(type), idx(idx), attributes(std::move(attributes)){};
+    Col(std::string name, Type type, int idx, Attributes attributes) : name(std::move(name)), type(type), idx(idx), attributes(std::move(attributes)){
+    };
     Col() {
         name = "";
         idx = 0;
@@ -99,11 +100,13 @@ public:
         json attributes_json;
         attributes.to_json(attributes_json);
         j["attributes"] = attributes_json;
+        //j["mxSize"] = mxSize;
     }
     friend void from_json(const json& j, Col& col) {
         col.name = j["name"];
         from_json(j["type"], col.type);
         from_json(j["attributes"], col.attributes);
+        //col.mxSize = j["mxSize"];
     }
 };
 

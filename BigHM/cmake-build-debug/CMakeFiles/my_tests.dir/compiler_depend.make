@@ -3,7 +3,7 @@
 
 CMakeFiles/my_tests.dir/test/DataBase_test.cpp.o: ../test/DataBase_test.cpp \
   /usr/include/stdc-predef.h \
-  ../googletest/googletest/include/gtest/gtest.h \
+  _deps/googletest/googletest/include/gtest/gtest.h \
   /usr/include/c++/11/cstddef \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -261,9 +261,9 @@ CMakeFiles/my_tests.dir/test/DataBase_test.cpp.o: ../test/DataBase_test.cpp \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  ../googletest/googletest/include/gtest/gtest-assertion-result.h \
-  ../googletest/googletest/include/gtest/gtest-message.h \
-  ../googletest/googletest/include/gtest/internal/gtest-port.h \
+  _deps/googletest/googletest/include/gtest/gtest-assertion-result.h \
+  _deps/googletest/googletest/include/gtest/gtest-message.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-port.h \
   /usr/include/c++/11/version \
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
@@ -297,8 +297,8 @@ CMakeFiles/my_tests.dir/test/DataBase_test.cpp.o: ../test/DataBase_test.cpp \
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
-  ../googletest/googletest/include/gtest/internal/custom/gtest-port.h \
-  ../googletest/googletest/include/gtest/internal/gtest-port-arch.h \
+  _deps/googletest/googletest/include/gtest/internal/custom/gtest-port.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-port-arch.h \
   /usr/include/regex.h \
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/chrono \
@@ -320,17 +320,17 @@ CMakeFiles/my_tests.dir/test/DataBase_test.cpp.o: ../test/DataBase_test.cpp \
   /usr/include/c++/11/optional \
   /usr/include/c++/11/bits/enable_special_members.h \
   /usr/include/c++/11/variant \
-  ../googletest/googletest/include/gtest/gtest-death-test.h \
-  ../googletest/googletest/include/gtest/internal/gtest-death-test-internal.h \
-  ../googletest/googletest/include/gtest/gtest-matchers.h \
+  _deps/googletest/googletest/include/gtest/gtest-death-test.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h \
+  _deps/googletest/googletest/include/gtest/gtest-matchers.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/unordered_map \
   /usr/include/c++/11/bits/hashtable.h \
   /usr/include/c++/11/bits/hashtable_policy.h \
   /usr/include/c++/11/bits/unordered_map.h \
-  ../googletest/googletest/include/gtest/gtest-printers.h \
-  ../googletest/googletest/include/gtest/internal/gtest-internal.h \
+  _deps/googletest/googletest/include/gtest/gtest-printers.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-internal.h \
   /usr/include/x86_64-linux-gnu/sys/wait.h \
   /usr/include/signal.h \
   /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -358,21 +358,21 @@ CMakeFiles/my_tests.dir/test/DataBase_test.cpp.o: ../test/DataBase_test.cpp \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
-  ../googletest/googletest/include/gtest/internal/gtest-filepath.h \
-  ../googletest/googletest/include/gtest/internal/gtest-string.h \
-  ../googletest/googletest/include/gtest/internal/gtest-type-util.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-filepath.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-string.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-type-util.h \
   /usr/include/c++/11/cxxabi.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
   /usr/include/c++/11/span \
-  ../googletest/googletest/include/gtest/internal/custom/gtest-printers.h \
-  ../googletest/googletest/include/gtest/gtest-param-test.h \
-  ../googletest/googletest/include/gtest/internal/gtest-param-util.h \
+  _deps/googletest/googletest/include/gtest/internal/custom/gtest-printers.h \
+  _deps/googletest/googletest/include/gtest/gtest-param-test.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-param-util.h \
   /usr/include/c++/11/cassert \
   /usr/include/assert.h \
-  ../googletest/googletest/include/gtest/gtest-test-part.h \
-  ../googletest/googletest/include/gtest/gtest-typed-test.h \
-  ../googletest/googletest/include/gtest/gtest_pred_impl.h \
-  ../googletest/googletest/include/gtest/gtest_prod.h \
+  _deps/googletest/googletest/include/gtest/gtest-test-part.h \
+  _deps/googletest/googletest/include/gtest/gtest-typed-test.h \
+  _deps/googletest/googletest/include/gtest/gtest_pred_impl.h \
+  _deps/googletest/googletest/include/gtest/gtest_prod.h \
   ../MyDataBase/dataBase/DataBase.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/ranges_algo.h \
@@ -468,7 +468,7 @@ CMakeFiles/my_tests.dir/test/DataBase_test.cpp.o: ../test/DataBase_test.cpp \
 
 CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser_test.cpp \
   /usr/include/stdc-predef.h \
-  ../googletest/googletest/include/gtest/gtest.h \
+  _deps/googletest/googletest/include/gtest/gtest.h \
   /usr/include/c++/11/cstddef \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -726,9 +726,9 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  ../googletest/googletest/include/gtest/gtest-assertion-result.h \
-  ../googletest/googletest/include/gtest/gtest-message.h \
-  ../googletest/googletest/include/gtest/internal/gtest-port.h \
+  _deps/googletest/googletest/include/gtest/gtest-assertion-result.h \
+  _deps/googletest/googletest/include/gtest/gtest-message.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-port.h \
   /usr/include/c++/11/version \
   /usr/include/c++/11/stdlib.h \
   /usr/include/string.h \
@@ -762,8 +762,8 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
   /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
-  ../googletest/googletest/include/gtest/internal/custom/gtest-port.h \
-  ../googletest/googletest/include/gtest/internal/gtest-port-arch.h \
+  _deps/googletest/googletest/include/gtest/internal/custom/gtest-port.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-port-arch.h \
   /usr/include/regex.h \
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/chrono \
@@ -785,17 +785,17 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
   /usr/include/c++/11/optional \
   /usr/include/c++/11/bits/enable_special_members.h \
   /usr/include/c++/11/variant \
-  ../googletest/googletest/include/gtest/gtest-death-test.h \
-  ../googletest/googletest/include/gtest/internal/gtest-death-test-internal.h \
-  ../googletest/googletest/include/gtest/gtest-matchers.h \
+  _deps/googletest/googletest/include/gtest/gtest-death-test.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h \
+  _deps/googletest/googletest/include/gtest/gtest-matchers.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/unordered_map \
   /usr/include/c++/11/bits/hashtable.h \
   /usr/include/c++/11/bits/hashtable_policy.h \
   /usr/include/c++/11/bits/unordered_map.h \
-  ../googletest/googletest/include/gtest/gtest-printers.h \
-  ../googletest/googletest/include/gtest/internal/gtest-internal.h \
+  _deps/googletest/googletest/include/gtest/gtest-printers.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-internal.h \
   /usr/include/x86_64-linux-gnu/sys/wait.h \
   /usr/include/signal.h \
   /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -823,21 +823,21 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
-  ../googletest/googletest/include/gtest/internal/gtest-filepath.h \
-  ../googletest/googletest/include/gtest/internal/gtest-string.h \
-  ../googletest/googletest/include/gtest/internal/gtest-type-util.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-filepath.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-string.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-type-util.h \
   /usr/include/c++/11/cxxabi.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
   /usr/include/c++/11/span \
-  ../googletest/googletest/include/gtest/internal/custom/gtest-printers.h \
-  ../googletest/googletest/include/gtest/gtest-param-test.h \
-  ../googletest/googletest/include/gtest/internal/gtest-param-util.h \
+  _deps/googletest/googletest/include/gtest/internal/custom/gtest-printers.h \
+  _deps/googletest/googletest/include/gtest/gtest-param-test.h \
+  _deps/googletest/googletest/include/gtest/internal/gtest-param-util.h \
   /usr/include/c++/11/cassert \
   /usr/include/assert.h \
-  ../googletest/googletest/include/gtest/gtest-test-part.h \
-  ../googletest/googletest/include/gtest/gtest-typed-test.h \
-  ../googletest/googletest/include/gtest/gtest_pred_impl.h \
-  ../googletest/googletest/include/gtest/gtest_prod.h \
+  _deps/googletest/googletest/include/gtest/gtest-test-part.h \
+  _deps/googletest/googletest/include/gtest/gtest-typed-test.h \
+  _deps/googletest/googletest/include/gtest/gtest_pred_impl.h \
+  _deps/googletest/googletest/include/gtest/gtest_prod.h \
   ../MyDataBase/conditionParser/ExprChecker.h \
   /usr/include/c++/11/regex \
   /usr/include/c++/11/algorithm \
@@ -1007,25 +1007,29 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/usr/include/c++/11/math.h:
-
 /usr/include/c++/11/algorithm:
 
-../googletest/googletest/include/gtest/gtest-typed-test.h:
+_deps/googletest/googletest/include/gtest/gtest-typed-test.h:
+
+_deps/googletest/googletest/include/gtest/gtest-test-part.h:
 
 /usr/include/c++/11/cassert:
 
-../googletest/googletest/include/gtest/internal/gtest-param-util.h:
+_deps/googletest/googletest/include/gtest/internal/gtest-param-util.h:
+
+_deps/googletest/googletest/include/gtest/gtest-param-test.h:
+
+_deps/googletest/googletest/include/gtest/internal/custom/gtest-printers.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
 
-../googletest/googletest/include/gtest/internal/gtest-string.h:
+_deps/googletest/googletest/include/gtest/internal/gtest-string.h:
 
-../googletest/googletest/include/gtest/internal/gtest-filepath.h:
+/usr/include/c++/11/math.h:
+
+_deps/googletest/googletest/include/gtest/internal/gtest-filepath.h:
 
 /usr/include/c++/11/bits/stl_multimap.h:
-
-../googletest/googletest/include/gtest/gtest-param-test.h:
 
 /usr/include/c++/11/bits/stl_map.h:
 
@@ -1047,8 +1051,6 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
 ../test/conditionParser_test.cpp:
@@ -1061,15 +1063,13 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
 /usr/include/c++/11/bits/quoted_string.h:
 
 /usr/include/x86_64-linux-gnu/bits/signum-generic.h:
 
-../googletest/googletest/include/gtest/gtest-printers.h:
+_deps/googletest/googletest/include/gtest/internal/gtest-internal.h:
+
+_deps/googletest/googletest/include/gtest/gtest-printers.h:
 
 /usr/include/c++/11/bits/unordered_map.h:
 
@@ -1079,7 +1079,13 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/c++/11/unordered_map:
 
-../googletest/googletest/include/gtest/gtest-death-test.h:
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+_deps/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h:
+
+_deps/googletest/googletest/include/gtest/gtest-death-test.h:
 
 /usr/include/c++/11/variant:
 
@@ -1097,6 +1103,8 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/c++/11/atomic:
 
+_deps/googletest/googletest/include/gtest/gtest_pred_impl.h:
+
 /usr/include/c++/11/bits/parse_numbers.h:
 
 /usr/include/c++/11/ratio:
@@ -1104,6 +1112,12 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 /usr/include/c++/11/condition_variable:
 
 /usr/include/regex.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+_deps/googletest/googletest/include/gtest/internal/gtest-port-arch.h:
+
+_deps/googletest/googletest/include/gtest/internal/custom/gtest-port.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
 
@@ -1157,7 +1171,7 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/c++/11/version:
 
-../googletest/googletest/include/gtest/internal/gtest-port.h:
+_deps/googletest/googletest/include/gtest/gtest-message.h:
 
 /usr/include/c++/11/bits/vector.tcc:
 
@@ -1170,8 +1184,6 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 /usr/include/c++/11/ext/concurrence.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
-
-../googletest/googletest/include/gtest/internal/gtest-internal.h:
 
 /usr/include/c++/11/bits/ios_base.h:
 
@@ -1209,8 +1221,6 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/wchar.h:
 
-../googletest/googletest/include/gtest/internal/gtest-port-arch.h:
-
 /usr/include/c++/11/exception:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
@@ -1220,8 +1230,6 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-../googletest/googletest/include/gtest/gtest_prod.h:
 
 /usr/include/c++/11/bits/stringfwd.h:
 
@@ -1349,12 +1357,6 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
-../googletest/googletest/include/gtest/gtest-message.h:
-
-../googletest/googletest/include/gtest/gtest.h:
-
-/usr/include/c++/11/istream:
-
 /usr/include/c++/11/bits/hash_bytes.h:
 
 /usr/include/c++/11/bits/move.h:
@@ -1384,6 +1386,10 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+_deps/googletest/googletest/include/gtest/internal/gtest-port.h:
+
+/usr/include/features.h:
 
 ../MyDataBase/dataBase/DataBase.h:
 
@@ -1449,8 +1455,6 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
-../googletest/googletest/include/gtest/gtest_pred_impl.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
 /usr/include/c++/11/bits/functexcept.h:
@@ -1490,8 +1494,6 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 /usr/include/c++/11/ext/numeric_traits.h:
 
 /usr/include/c++/11/bits/atomic_base.h:
-
-/usr/include/features.h:
 
 /usr/include/c++/11/bits/iterator_concepts.h:
 
@@ -1559,17 +1561,11 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
-../googletest/googletest/include/gtest/internal/gtest-type-util.h:
-
 /usr/include/c++/11/backward/auto_ptr.h:
-
-../googletest/googletest/include/gtest/gtest-test-part.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-../googletest/googletest/include/gtest/internal/custom/gtest-printers.h:
 
 /usr/include/c++/11/bits/allocated_ptr.h:
 
@@ -1655,6 +1651,8 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
+_deps/googletest/googletest/include/gtest/gtest-matchers.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
@@ -1662,8 +1660,6 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 /usr/include/c++/11/string_view:
 
 /usr/include/c++/11/iomanip:
-
-../googletest/googletest/include/gtest/internal/gtest-death-test-internal.h:
 
 /usr/include/c++/11/cctype:
 
@@ -1679,6 +1675,8 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/c++/11/bits/max_size_type.h:
 
+_deps/googletest/googletest/include/gtest/gtest.h:
+
 /usr/include/c++/11/cstdio:
 
 /usr/include/stdio.h:
@@ -1689,9 +1687,9 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/x86_64-linux-gnu/bits/signum-arch.h:
 
-../googletest/googletest/include/gtest/internal/custom/gtest-port.h:
-
 /usr/include/x86_64-linux-gnu/bits/errno.h:
+
+_deps/googletest/googletest/include/gtest/internal/gtest-type-util.h:
 
 /usr/include/sched.h:
 
@@ -1779,7 +1777,7 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/c++/11/bits/valarray_before.h:
 
-../googletest/googletest/include/gtest/gtest-matchers.h:
+_deps/googletest/googletest/include/gtest/gtest-assertion-result.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
@@ -1795,7 +1793,7 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
-../googletest/googletest/include/gtest/gtest-assertion-result.h:
+_deps/googletest/googletest/include/gtest/gtest_prod.h:
 
 /usr/include/c++/11/string:
 
@@ -1834,3 +1832,5 @@ CMakeFiles/my_tests.dir/test/conditionParser_test.cpp.o: ../test/conditionParser
 /usr/include/x86_64-linux-gnu/asm/unistd_64.h:
 
 /usr/include/c++/11/sstream:
+
+/usr/include/c++/11/istream:

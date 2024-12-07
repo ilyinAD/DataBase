@@ -1,4 +1,4 @@
-C:\Windows\system32\wsl.exe --distribution Ubuntu-22.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase -B /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/cmake-build-debug"
+C:\Windows\system32\wsl.exe --distribution Ubuntu-22.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase -B /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/cmake-build-debug"
 CMake Warning (dev) in CMakeLists.txt:
   No project() command is present.  The top-level CMakeLists.txt file must
   contain a literal, direct call to the project() command.  Add a line of
@@ -35,17 +35,5 @@ CMake Warning (dev) in CMakeLists.txt:
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Configuring done
-CMake Error at CMakeLists.txt:1 (add_library):
-  Cannot find source file:
-
-    conditionParser/ExprChecker.cpp,
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
-  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
-
-
-CMake Error at CMakeLists.txt:1 (add_library):
-  No SOURCES given to target: MyDataBase
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done
+-- Build files have been written to: /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/cmake-build-debug

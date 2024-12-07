@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMyDataBase_1.a CMakeFiles/MyDataBase_1.dir/conditionParser/ExprChecker.o CMakeFiles/MyDataBase_1.dir/dataBase/DataBase.o CMakeFiles/MyDataBase_1.dir/domain/ColTable.o CMakeFiles/MyDataBase_1.dir/domain/DataBaseType.o CMakeFiles/MyDataBase_1.dir/domain/Element.o CMakeFiles/MyDataBase_1.dir/table/Table.o CMakeFiles/MyDataBase_1.dir/utils/utils.o
+/usr/bin/ranlib libMyDataBase_1.a

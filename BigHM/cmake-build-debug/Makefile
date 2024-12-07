@@ -198,17 +198,17 @@ my_tests/fast:
 .PHONY : my_tests/fast
 
 #=============================================================================
-# Target rules for targets named MyDataBase
+# Target rules for targets named MyDataBase_1
 
 # Build rule for target.
-MyDataBase: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyDataBase
-.PHONY : MyDataBase
+MyDataBase_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyDataBase_1
+.PHONY : MyDataBase_1
 
 # fast build rule for target.
-MyDataBase/fast:
-	$(MAKE) $(MAKESILENT) -f MyDataBase/CMakeFiles/MyDataBase.dir/build.make MyDataBase/CMakeFiles/MyDataBase.dir/build
-.PHONY : MyDataBase/fast
+MyDataBase_1/fast:
+	$(MAKE) $(MAKESILENT) -f MyDataBase/CMakeFiles/MyDataBase_1.dir/build.make MyDataBase/CMakeFiles/MyDataBase_1.dir/build
+.PHONY : MyDataBase_1/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -468,7 +468,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... BigHM"
-	@echo "... MyDataBase"
+	@echo "... MyDataBase_1"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"

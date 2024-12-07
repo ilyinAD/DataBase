@@ -110,7 +110,7 @@ my_tests: CMakeFiles/my_tests.dir/test/DataBase_test.cpp.o
 my_tests: CMakeFiles/my_tests.dir/build.make
 my_tests: lib/libgtest.a
 my_tests: lib/libgtest_main.a
-my_tests: MyDataBase/libMyDataBase.a
+my_tests: MyDataBase/libMyDataBase_1.a
 my_tests: lib/libgtest.a
 my_tests: CMakeFiles/my_tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable my_tests"

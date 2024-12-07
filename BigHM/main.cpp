@@ -29,9 +29,6 @@ int main() {
         database.insert("insert (login = \"vasya\", password_hash = 0xdeadbeefdeadbeef) to users");
         database.insert("insert (,\"max\", 0x0000000000000000, false) to users");
 
-
-
-
         //database.update("update users set login = login + Y where is_admin = true");
         database.tables["users"].print();
         database.create("create table cars ({key, autoincrement} id :\n"

@@ -16,7 +16,14 @@ TEST(DataBase, Queries) {
                                 Col("login", Type(TypeName::String, 32), 1, Attributes(1, 0, 0)),
                                 Col("password_hash", Type(TypeName::Bytes, 8), 2, Attributes(0, 0, 0)),
                                 Col("is_admin", Type(TypeName::Bool, 1), 3, Attributes(0, 0, 0, "true"))};
-    ASSERT_EQ(columns, database.tables["users"].columns);
+    //ASSERT_EQ(columns, database.tables["users"].columns);
+
+    for (int i = 0; i < columns.size(); ++i) {
+        if (columns[i] == database.tables["users"].columns[i]) {
+            continue;
+        }
+        FAIL() << i << std::endl;
+    }
 
     database.insert("insert (login = \"vasya\", password_hash = 0xdeadbeefdeadbeef) to users");
     database.insert("insert (,\"max\", 0x0000000000000000, false) to users");
@@ -25,7 +32,8 @@ TEST(DataBase, Queries) {
     for (int i = 0; i < rows.size(); ++i) {
         for (int j = 0; j < rows[i].size(); ++j) {
             if (rows[i][j] != getStringByType(database.tables["users"].rows[i][j])) {
-                FAIL() << i << j << std::endl;
+
+                FAIL() << i << j << getStringByType(database.tables["users"].rows[i][j]) << std::endl;
             }
         }
     }

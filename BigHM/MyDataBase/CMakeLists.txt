@@ -1,4 +1,4 @@
-add_library(MyDataBase
+add_library(MyDataBase_1
         conditionParser/ExprChecker.cpp conditionParser/ExprChecker.h
         dataBase/DataBase.cpp dataBase/DataBase.h
         domain/ColTable.cpp domain/ColTable.h
@@ -7,4 +7,4 @@ add_library(MyDataBase
         table/Table.cpp table/Table.h
         utils/utils.cpp utils/utils.h
 )
-target_include_directories(MyDataBase INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(MyDataBase_1 INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})

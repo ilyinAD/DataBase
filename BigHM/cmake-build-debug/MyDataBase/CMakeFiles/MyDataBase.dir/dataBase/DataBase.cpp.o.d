@@ -1,7 +1,7 @@
 MyDataBase/CMakeFiles/MyDataBase.dir/dataBase/DataBase.cpp.o: \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/DataBase.cpp \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/DataBase.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/DataBase.h \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/DataBase.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -242,11 +242,11 @@ MyDataBase/CMakeFiles/MyDataBase.dir/dataBase/DataBase.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/Table.h \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/../utils/utils.h \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/Table.h \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/../utils/utils.h \
  /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/../utils/../domain/ColTable.h \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/../utils/../domain/../../json/single_include/nlohmann/json.hpp \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/../utils/../domain/ColTable.h \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/../utils/../domain/../../json/single_include/nlohmann/json.hpp \
  /usr/include/c++/11/cstddef /usr/include/c++/11/forward_list \
  /usr/include/c++/11/bits/forward_list.h \
  /usr/include/c++/11/bits/forward_list.tcc /usr/include/c++/11/valarray \
@@ -276,12 +276,12 @@ MyDataBase/CMakeFiles/MyDataBase.dir/dataBase/DataBase.cpp.o: \
  /usr/include/c++/11/optional /usr/include/c++/11/ranges \
  /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/pstl/glue_numeric_defs.h /usr/include/c++/11/any \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/../utils/../domain/DataBaseType.h \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/../domain/ColTable.h \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/../domain/DataBaseType.h \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/../domain/Element.h \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/../domain/ColTable.h \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/../conditionParser/ExprChecker.h \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/../utils/../domain/DataBaseType.h \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/../domain/ColTable.h \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/../domain/DataBaseType.h \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/../domain/Element.h \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/../domain/ColTable.h \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/../conditionParser/ExprChecker.h \
  /usr/include/c++/11/regex /usr/include/c++/11/bitset \
  /usr/include/c++/11/stack /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
@@ -297,9 +297,9 @@ MyDataBase/CMakeFiles/MyDataBase.dir/dataBase/DataBase.cpp.o: \
  /usr/include/c++/11/bits/regex.h /usr/include/c++/11/bits/regex.tcc \
  /usr/include/c++/11/bits/regex_executor.h \
  /usr/include/c++/11/bits/regex_executor.tcc \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/../conditionParser/../domain/DataBaseType.h \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/../conditionParser/../domain/ColTable.h \
- /mnt/c/MyDoc/HSEprogramming/Cpp-seminars/BigHM/MyDataBase/dataBase/../table/../../json/single_include/nlohmann/json.hpp \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/../conditionParser/../domain/DataBaseType.h \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/../conditionParser/../domain/ColTable.h \
+ /mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/../table/../../json/single_include/nlohmann/json.hpp \
  /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \

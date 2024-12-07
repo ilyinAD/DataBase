@@ -185,8 +185,8 @@
 					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="MyDataBase">
-				<Option output="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/libMyDataBase.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="MyDataBase_1">
+				<Option output="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/libMyDataBase_1.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -201,14 +201,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/Makefile&quot;  VERBOSE=1 MyDataBase"/>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/Makefile&quot;  VERBOSE=1 MyDataBase_1"/>
 					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="MyDataBase/fast">
-				<Option output="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/libMyDataBase.a" prefix_auto="0" extension_auto="0"/>
+			<Target title="MyDataBase_1/fast">
+				<Option output="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/libMyDataBase_1.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
@@ -223,7 +223,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/Makefile&quot;  VERBOSE=1 MyDataBase/fast"/>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/Makefile&quot;  VERBOSE=1 MyDataBase_1/fast"/>
 					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/MyDataBase/Makefile&quot;  VERBOSE=1 clean"/>
@@ -432,57 +432,57 @@
 		</Build>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/conditionParser/ExprChecker.cpp">
 			<Option target="BigHM"/>
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/conditionParser/ExprChecker.h">
 			<Option target="BigHM"/>
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/DataBase.cpp">
 			<Option target="BigHM"/>
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/dataBase/DataBase.h">
 			<Option target="BigHM"/>
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/domain/ColTable.cpp">
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/domain/ColTable.h">
 			<Option target="BigHM"/>
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/domain/DataBaseType.cpp">
 			<Option target="BigHM"/>
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/domain/DataBaseType.h">
 			<Option target="BigHM"/>
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/domain/Element.cpp">
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/domain/Element.h">
 			<Option target="BigHM"/>
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/table/Table.cpp">
 			<Option target="BigHM"/>
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/table/Table.h">
 			<Option target="BigHM"/>
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/utils/utils.cpp">
 			<Option target="BigHM"/>
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/MyDataBase/utils/utils.h">
 			<Option target="BigHM"/>
-			<Option target="MyDataBase"/>
+			<Option target="MyDataBase_1"/>
 		</Unit>
 		<Unit filename="/mnt/c/MyDoc/HSEprogramming/DataBaseProject/DataBase/BigHM/cmake-build-debug/_deps/googletest/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
